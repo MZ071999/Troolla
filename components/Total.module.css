@@ -1,0 +1,12 @@
+.card {
+  background: rgb(226, 226, 226);
+  margin: 4rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.total {
+  font-weight: bold;
+}

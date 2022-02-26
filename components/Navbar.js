@@ -11,6 +11,12 @@ function Navbar() {
             <div> Form </div>
           </Link>
           <Link href="/records" passHref>
+            <div> Inventory </div>
+          </Link>
+          <Link href="/sales" passHref>
+            <div> Sales </div>
+          </Link>
+          <Link href="/transaction" passHref>
             <div> Records </div>
           </Link>
         </div>

@@ -1,18 +1,18 @@
 /* eslint-disable react/jsx-key */
 import Navbar from "../components/Navbar";
+import Sales from "../components/Sales";
 import { MongoClient } from "mongodb";
-import BasicTable from "../components/table/BasicTable";
 
-function form({ cars }) {
+function sales({ cars }) {
   return (
     <div>
       <Navbar />
-      <BasicTable props={cars} />
+      <Sales props={cars} />
     </div>
   );
 }
 
-export default form;
+export default sales;
 
 export async function getServerSideProps(context) {
   const uri = process.env.MONGODB_URI;

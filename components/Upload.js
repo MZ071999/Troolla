@@ -21,7 +21,7 @@ function Upload() {
       carName: enteredName.current.value,
       carModel: enteredModel.current.value,
       carSKU: enteredSKU.current.value,
-      carPrice: enteredPrice.current.value,
+      carPrice: parseInt(enteredPrice.current.value),
     };
 
     axios.post("/api/addcar", carData).then((data) => {
