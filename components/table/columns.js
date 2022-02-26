@@ -16,7 +16,7 @@ export const COLUMNS = [
     accessor: "carSKU",
   },
   {
-    Header: "Price",
+    Header: "$ Price",
     accessor: "carPrice",
   },
 ];
