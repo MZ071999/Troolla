@@ -1,10 +1,13 @@
+import Upload from "../components/Upload";
 import Navbar from "../components/Navbar";
-import styles from "../styles/Home.module.css";
 
-export default function Home() {
+function form() {
   return (
     <div>
       <Navbar />
+      <Upload />
     </div>
   );
 }
+
+export default form;
